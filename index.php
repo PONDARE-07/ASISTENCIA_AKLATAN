@@ -31,7 +31,7 @@
 			
 		</div>
 	</div>
-			
+		</div>	
   <!-- CONTENT-WRAPPER SECTION END-->
     <?php include('includes/footer.php');?>
     <!-- FOOTER SECTION END-->

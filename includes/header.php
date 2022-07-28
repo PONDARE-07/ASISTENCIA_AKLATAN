@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include("conFunc.php");
 error_reporting(0);
 ?>
 <?php if($_SESSION['login']!="")
@@ -24,7 +24,9 @@ error_reporting(0);
                              <img src = "images/banner_library.png" width = "190px" height = "50px" />
 
         </div>
-                
+             <div class="timer">
+                 
+             </div>   
 
             </div>
 

@@ -2,7 +2,7 @@
 		$servername = "localhost";
 		$username = "root";
 		$password = "";
-		$dbname = "prjctable";
+		$dbname = "librarydb";
 
 		$link = mysqli_connect($servername, $username, $password, $dbname);
 				if (!$link) {

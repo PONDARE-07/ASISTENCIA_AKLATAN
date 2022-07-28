@@ -55,11 +55,6 @@ Change Password
 <form role="form" method="post" onSubmit="return valid();" name="chngpwd">
 
 <div class="form-group">
-<label>Current Password</label>
-<input class="form-control" type="password" name="password" autocomplete="off" required  />
-</div>
-
-<div class="form-group">
 <label>Enter Password</label>
 <input class="form-control" type="password" name="newpassword" autocomplete="off" required  />
 </div>

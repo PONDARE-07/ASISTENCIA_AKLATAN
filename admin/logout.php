@@ -2,7 +2,7 @@
 
 session_start();
 
-include("includes/config.php");
+include("includes/conFunc.php");
 
 $_SESSION['username']=="";
 
@@ -19,7 +19,7 @@ $_SESSION['errmsg']="You have successfully logout";
 
 <script language="javascript">
 
-document.location="users.php";
+document.location="adminlogin.php";
 
 </script>
 

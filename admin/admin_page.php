@@ -37,7 +37,7 @@
             <hr style = "border:1px dotted #F0677C;"/>
             <ul id = "menu" class = "nav menu">
 
-                 <li><a style = "font-size:18px; border-bottom:1px solid #F0677C;" href = "adminpage.php"><i class = "glyphicon glyphicon-home"></i> HOME</a>
+                 <li><a style = "font-size:18px; border-bottom:1px solid #F0677C;" href = "admin_page.php"><i class = "glyphicon glyphicon-home"></i> HOME</a>
 
                  </li>
 
@@ -54,13 +54,11 @@
                         </ul>
             </li>
 
-                 <li><a style = "font-size:18px; border-bottom:1px solid #F0677C;" href = ""><i class="fas fa-chart-bar"></i> DASHBOARD</a>
+                 <li><a style = "font-size:18px; border-bottom:1px solid #F0677C;" href = ""><i class="glyphicon glyphicon-stats"></i> DASHBOARD</a>
                         <ul style = "list-style-type:none;">
                             <li><a href = ".php" style = "font-size:15px;"><i class = "glyphicon glyphicon-user"></i> Availed Services</a></li>
                             
                             <li><a href = ".php" style = "font-size:15px;"><i class = "glyphicon glyphicon-user"></i> Monthly Visit</a></li>
-
-                            <li><a href = ".php" style = "font-size:15px;"><i class = "glyphicon glyphicon-user"></i> </a></li>
 
                             <li><a href = ".php" style = "font-size:15px;"><i class = "glyphicon glyphicon-user"></i> Staff</a></li>
 
@@ -69,7 +67,7 @@
 
                 <li><a  style = "font-size:18px; border-bottom:1px solid #d3d3d3;" href = ""><i class = "glyphicon glyphicon-cog"></i> SETTINGS</a>
                         <ul style = "list-style-type:none;">
-                            <li><a style = "font-size:15px;" href = "index.php"><i class = "glyphicon glyphicon-log-out"></i> Logout</a></li>
+                            <li><a style = "font-size:15px;" href = "logout.php"><i class = "glyphicon glyphicon-log-out"></i> Logout</a></li>
                             <li><a style = "font-size:15px;" href = "change_pass.php"><i class = "glyphicon glyphicon-log-out"></i> Change Password</a></li>
                         </ul>
             
